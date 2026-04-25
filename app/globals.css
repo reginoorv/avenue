@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #1A1F2E;
+  --color-warm: #F8F6F2;
+  --color-gold: #C9A96E;
+  --color-text-dark: #1A1A1A;
+  --color-text-muted: #6B7280;
+  --color-border-card: #E8E4DC;
+  
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
